@@ -1,0 +1,45 @@
+.Weather {
+  border: 2px solid #4792a8;
+  padding: 10px;
+}
+.form-control {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: pink;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 15px;
+  text-align: left;
+  position: flex;
+  color: #f1c1e0;
+  text-decoration: underline;
+  text-decoration-color: #4792a8;
+}
+.Date {
+  text-align: left;
+  color: #f1c1e0;
+  list-style-type: none;
+}
+span {
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #f1c1e0;
+  opacity: 0.8;
+  font-size: 64px;
+  display: block;
+}
+.Description {
+  text-align: left;
+  color: #f1c1e0;
+  list-style-type: none;
+}
+ul {
+  text-transform: capitalize;
+  text-align: justify;
+  list-style: none;
+  color: #f1c1e0;
+  background-color: #4792a8;
+}
