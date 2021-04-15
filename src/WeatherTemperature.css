@@ -1,0 +1,11 @@
+.WeatherTemperature {
+  background-color: #4792a8;
+  opacity: 0.8;
+}
+.unit {
+  color: #f1c1e0;
+  transition: ease-in-out 200ms;
+}
+a {
+  color: #f1c1e0;
+}
