@@ -10,6 +10,14 @@ export default function App() {
       <div className="Container">
         <h1>World Weather</h1>
         <Weather defaultCity="Tokyo" />
+        <footer> <a
+          href="https://github.com/sabreenshehwar/weather-react"
+          target="_blank"
+        >
+          open-source code
+            </a>
+          < br />
+            by Sabreen Shehwar</footer>
       </div>
     </div>
   );

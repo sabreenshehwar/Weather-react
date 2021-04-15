@@ -6,7 +6,8 @@
   text-align: center;
   display: block;
   margin: 0 auto;
-  color: pink;
+  background-color: #f1c1e0;
+  opacity: 0.8;
 }
 
 h2 {
@@ -18,11 +19,6 @@ h2 {
   text-decoration: underline;
   text-decoration-color: #4792a8;
 }
-.Date {
-  text-align: left;
-  color: #f1c1e0;
-  list-style-type: none;
-}
 span {
   font-weight: bold;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -31,15 +27,16 @@ span {
   font-size: 64px;
   display: block;
 }
-.Description {
-  text-align: left;
-  color: #f1c1e0;
-  list-style-type: none;
+.Day {
+  text-align: justify;
+  margin: 0 auto;
 }
+
 ul {
   text-transform: capitalize;
   text-align: justify;
   list-style: none;
   color: #f1c1e0;
   background-color: #4792a8;
+  opacity: 0.8;
 }
