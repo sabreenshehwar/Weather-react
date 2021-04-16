@@ -30,6 +30,7 @@ span {
 .Day {
   text-align: justify;
   margin: 0 auto;
+  color: #f1c1e0;
 }
 
 ul {
@@ -38,5 +39,5 @@ ul {
   list-style: none;
   color: #f1c1e0;
   background-color: #4792a8;
-  opacity: 0.8;
+  opacity: 0.9;
 }

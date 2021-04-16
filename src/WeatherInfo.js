@@ -6,20 +6,19 @@ export default function WeatherInfo(props) {
     return (
         <div className="Weather Info">
             <h2>{props.data.city}</h2>
-            <ul>
-                <li className="Day">
-                    <FormattedDate date={props.data.date} />
-                </li>
-            </ul>
-            <div className="col-6">
-                <img src={props.data.icon} alt={props.data.description} />{" "}
-            </div>
+            <h5 className="Day">
+                <FormattedDate date={props.data.date} />
+            </h5>
+            < br />
             <div className="row">
                 <div className="col-6">
                     <WeatherTemperature celsius={props.data.temperature} />
                 </div>
                 <div className="col-6">
                     <ul>
+                        <li>
+                            <img src={props.data.icon} alt={props.data.description} />{" "}
+                        </li>
                         <li>
                             {props.data.description}
                         </li>
