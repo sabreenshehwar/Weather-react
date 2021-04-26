@@ -1,11 +1,17 @@
+.WeatherForecast {
+  border: 2px solid #4792a8;
+  padding: 5%;
+}
 .card {
   background-color: rgb(60, 132, 155);
   opacity: 0.7;
   margin: 0 auto;
-  display: block;
-  padding: 2px;
+  display: flex;
+  justify-content: flex-start;
+  width: 8rem;
 }
 .WeatherForecast-day {
+  border: 2px solid #4792a8;
   color: #f1c1e0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;

@@ -1,5 +1,4 @@
 .Weather {
-  border: 2px solid #4792a8;
   padding: 10px;
 }
 .form-control {
@@ -10,7 +9,7 @@
   opacity: 0.8;
 }
 
-h2 {
+h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   padding-top: 15px;
   text-align: left;

@@ -14,7 +14,7 @@ export default function WeatherForecastDay(props) {
             "Sat",
         ];
 
-        return days[day];
+        return days[day];;
     }
     return (
         <div className="card">
